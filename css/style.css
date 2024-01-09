@@ -1,0 +1,70 @@
+body {
+    background-color: #1c466b; /* Cor de fundo azul claro */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form {
+    background-color: #ffffff; /* Cor de fundo branco para o formulário */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(238, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+}
+
+.card {
+    padding: 20px;
+}
+
+.card-top {
+    text-align: center;
+}
+
+.imglogin {
+    width: 80px; /* Ajuste o tamanho conforme necessário */
+}
+
+.title {
+    color: #004080; /* Cor do título em azul escuro */
+}
+
+.card-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #004080; /* Cor do texto em azul escuro */
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #004080; /* Cor do botão em azul escuro */
+    color: #fff; /* Cor do texto do botão em branco */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003366; /* Cor do botão ao passar o mouse em azul mais escuro */
+}
+
+.card-group input[type="checkbox"] {
+    margin-right: 5px;
+}
